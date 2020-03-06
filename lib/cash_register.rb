@@ -13,7 +13,7 @@ class CashRegister
 def add_item(title, price, quantity = 1)
   @total += price * quantity
 end  
-end
+
 
 def apply_discount
   #here you want to subtract the discount from the total
@@ -25,4 +25,5 @@ def apply_discount
   else
     "There is no discount to apply."
  end
+end
 end
