@@ -17,7 +17,7 @@ end
 
 def apply_discount
   #here you want to subtract the discount from the total
-   if @discount < 0
-  updated_total = 
+   if @discount > 0
+  updated_total = price * quantity
  end
 end
