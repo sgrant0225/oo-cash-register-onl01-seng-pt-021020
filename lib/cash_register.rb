@@ -21,7 +21,7 @@ def apply_discount
   disc_total = (price * discount)/100
   @total -= disc_total
   return 
-   "After the discount, the total comes to #{total}."
+   "After the discount, the total comes to #{@total}."
   else
     "There is no discount to apply."
  end
