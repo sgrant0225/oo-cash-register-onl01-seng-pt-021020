@@ -32,4 +32,4 @@ def apply_discount
 def void_last_transaction
 
 end
-end
+
