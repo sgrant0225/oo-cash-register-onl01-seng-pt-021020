@@ -29,6 +29,9 @@ def apply_discount
   else
     "There is no discount to apply."
 end
+def void_last_transaction
+  
+end
 end
 end 
 
