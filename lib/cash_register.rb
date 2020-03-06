@@ -20,7 +20,9 @@ def apply_discount
    if @discount > 0
   disc_total = (price * discount)/100
   @total -= disc_total
-  
-  binding.pry
+  return 
+   "After the discount, the total comes to #{total}."
+  else
+    
  end
 end
