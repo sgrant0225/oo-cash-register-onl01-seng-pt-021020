@@ -16,7 +16,7 @@ def add_item(title, price, quantity = 1)
     quantity.times do
       @items << item
     end
-    self.last_item = price * quantity
+    @last_item = price * quantity
   end
 
 
