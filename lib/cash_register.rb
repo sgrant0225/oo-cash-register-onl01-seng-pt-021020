@@ -18,7 +18,7 @@ end
 def apply_discount
   #here you want to subtract the discount from the total
    if @discount > 0
-  disc_total = (price * discount)
+  disc_total = (@total * (discount.to_f/100.to_f))
   @total -= disc_total
   return 
    "After the discount, the total comes to #{@total}."
