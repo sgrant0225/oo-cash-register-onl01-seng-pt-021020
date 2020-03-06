@@ -30,7 +30,7 @@ def apply_discount
     "There is no discount to apply."
  end
 
-def void_last_transcaction
+def void_last_transaction
 
 end
 
