@@ -32,7 +32,8 @@ def apply_discount
 end
 
 def void_last_transaction
-  
+  #want to void the last item added to the total
+  @total -= @last_item
 end
 end
 
