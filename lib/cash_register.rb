@@ -18,6 +18,6 @@ end
 def apply_discount
   #here you want to subtract the discount from the total
    if @discount < 0
-  binding.pry
+  updated_total = 
  end
 end
