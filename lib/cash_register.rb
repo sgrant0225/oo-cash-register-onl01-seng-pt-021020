@@ -20,6 +20,7 @@ def apply_discount
    if @discount > 0
   disc_total = (price * discount)/100
   @total -= disc_total
+  
   binding.pry
  end
 end
