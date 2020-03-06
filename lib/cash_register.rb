@@ -20,3 +20,4 @@ def apply_discount
    if @discount < 0
   binding.pry
 end
+end
