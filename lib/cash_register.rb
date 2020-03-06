@@ -19,5 +19,5 @@ def apply_discount
   #here you want to subtract the discount from the total
    if @discount < 0
   binding.pry
-end
+ end
 end
