@@ -20,8 +20,7 @@ def apply_discount
    if @discount > 0
   disc_total = (@total * (discount.to_f/100.to_f))
   @total -= disc_total
-  return 
-   "After the discount, the total comes to #{@total}."
+  return "After the discount, the total comes to #{@total}."
   else
     "There is no discount to apply."
  end
